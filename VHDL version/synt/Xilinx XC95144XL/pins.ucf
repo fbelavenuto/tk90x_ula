@@ -1,0 +1,44 @@
+NET "iVERT50_60" 	LOC = "P76" ;
+NET "iCS" 			LOC = "P78"  ;
+NET "oVRAM_A<0>"  LOC = "P80"  ;
+NET "oVRAM_A<1>"  LOC = "P82"  ;
+NET "oVRAM_A<2>"  LOC = "P85"  ;
+NET "oVRAM_A<3>"  LOC = "P87"  ;
+NET "oVRAM_A<4>"  LOC = "P89"  ;
+NET "oVRAM_A<5>"  LOC = "P90"  ;
+NET "oVRAM_A<6>"  LOC = "P96"  ;
+NET "oKEYBOARD"	LOC = "P99"  ;
+NET "iOSC"  		LOC = "P22"  ;
+NET "oVRAM_CAS"  	LOC = "P01"  ;
+NET "oVRAM_RAS"  	LOC = "P13"  ;
+NET "oVRAM_WR"  	LOC = "P15"  ;
+NET "iMREQ"  		LOC = "P17"  ;
+NET "iWR"  			LOC = "P18"  ;
+NET "iRD"  			LOC = "P19"  ;
+NET "oBRIGHT"  	LOC = "P23"  ;
+NET "oGREEN"  		LOC = "P25"  ;
+
+
+NET "oSUBCARRIER" LOC = "P74"  ;
+NET "iA15"  		LOC = "P72"  ;
+NET "iA14"  		LOC = "P70"  ;
+NET "oCPU"  		LOC = "P68"  ;
+NET "oBURSTGATE"  LOC = "P66"  ;
+NET "oINT"  		LOC = "P64"  ;
+NET "oCSYNC"  		LOC = "P60"  ;
+NET "iULA_D<7>"  LOC = "P55"  ;
+NET "iULA_D<6>"  LOC = "P53"  ;
+NET "iULA_D<5>"  LOC = "P50"  ;
+NET "iULA_D<4>"  LOC = "P43"  ;
+NET "iULA_D<3>"  LOC = "P40"  ;
+NET "iULA_D<2>"  LOC = "P37"  ;
+NET "iULA_D<1>"  LOC = "P35"  ;
+NET "iULA_D<0>"  LOC = "P34"  ;
+NET "oSOUND"  		LOC = "P33"  ;
+NET "oMIC"  		LOC = "P30"  ;
+NET "oBLUE"  		LOC = "P29"  ;
+NET "oRED"  		LOC = "P27"  ;
+
+NET "oCSYNC2"    	LOC = "P8"  ;
+NET "oVSYNC"  		LOC = "P6"  ;
+NET "oHSYNC"  		LOC = "P7"  ;

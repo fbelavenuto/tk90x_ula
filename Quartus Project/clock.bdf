@@ -1,0 +1,376 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 112 88 280 104)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLK14" (rect 5 0 38 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 928 80 1104 96)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "CLK7" (rect 90 0 117 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 928 192 1104 208)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "HC[8..0]" (rect 90 0 132 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 928 320 1104 336)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "HQ[7..0]" (rect 90 0 132 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 816 72 864 104)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst13" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect 584 312 704 472)
+	(text "74138" (rect 42 0 83 16)(font "Arial" (font_size 10)))
+	(text "inst14" (rect 3 149 32 161)(font "Arial" ))
+	(port
+		(pt 0 40)
+		(input)
+		(text "A" (rect 22 33 31 47)(font "Arial" (font_size 8)))
+		(text "A" (rect 22 33 31 47)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "B" (rect 22 49 30 63)(font "Arial" (font_size 8)))
+		(text "B" (rect 22 49 30 63)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "G1" (rect 22 81 38 95)(font "Arial" (font_size 8)))
+		(text "G1" (rect 22 81 38 95)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 16 88))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "C" (rect 22 65 30 79)(font "Arial" (font_size 8)))
+		(text "C" (rect 22 65 30 79)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 16 72))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "G2AN" (rect 22 97 56 111)(font "Arial" (font_size 8)))
+		(text "G2AN" (rect 22 97 56 111)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 8 104))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "G2BN" (rect 22 113 55 127)(font "Arial" (font_size 8)))
+		(text "G2BN" (rect 22 113 55 127)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 8 120))
+	)
+	(port
+		(pt 120 24)
+		(output)
+		(text "Y0N" (rect 77 17 101 31)(font "Arial" (font_size 8)))
+		(text "Y0N" (rect 77 17 101 31)(font "Arial" (font_size 8)))
+		(line (pt 112 24)(pt 120 24))
+	)
+	(port
+		(pt 120 40)
+		(output)
+		(text "Y1N" (rect 77 33 101 47)(font "Arial" (font_size 8)))
+		(text "Y1N" (rect 77 33 101 47)(font "Arial" (font_size 8)))
+		(line (pt 112 40)(pt 120 40))
+	)
+	(port
+		(pt 120 56)
+		(output)
+		(text "Y2N" (rect 77 49 101 63)(font "Arial" (font_size 8)))
+		(text "Y2N" (rect 77 49 101 63)(font "Arial" (font_size 8)))
+		(line (pt 112 56)(pt 120 56))
+	)
+	(port
+		(pt 120 72)
+		(output)
+		(text "Y3N" (rect 77 65 101 79)(font "Arial" (font_size 8)))
+		(text "Y3N" (rect 77 65 101 79)(font "Arial" (font_size 8)))
+		(line (pt 112 72)(pt 120 72))
+	)
+	(port
+		(pt 120 88)
+		(output)
+		(text "Y4N" (rect 77 81 101 95)(font "Arial" (font_size 8)))
+		(text "Y4N" (rect 77 81 101 95)(font "Arial" (font_size 8)))
+		(line (pt 112 88)(pt 120 88))
+	)
+	(port
+		(pt 120 104)
+		(output)
+		(text "Y5N" (rect 77 97 101 111)(font "Arial" (font_size 8)))
+		(text "Y5N" (rect 77 97 101 111)(font "Arial" (font_size 8)))
+		(line (pt 112 104)(pt 120 104))
+	)
+	(port
+		(pt 120 120)
+		(output)
+		(text "Y6N" (rect 77 113 101 127)(font "Arial" (font_size 8)))
+		(text "Y6N" (rect 77 113 101 127)(font "Arial" (font_size 8)))
+		(line (pt 112 120)(pt 120 120))
+	)
+	(port
+		(pt 120 136)
+		(output)
+		(text "Y7N" (rect 77 129 101 143)(font "Arial" (font_size 8)))
+		(text "Y7N" (rect 77 129 101 143)(font "Arial" (font_size 8)))
+		(line (pt 112 136)(pt 120 136))
+	)
+	(drawing
+		(text "3:8 DECODER" (rect 28 145 105 159)(font "Arial" (font_size 8)))
+		(line (pt 16 16)(pt 104 16))
+		(line (pt 16 144)(pt 104 144))
+		(line (pt 16 144)(pt 16 16))
+		(line (pt 104 144)(pt 104 16))
+		(circle (rect 104 68 112 76))
+		(circle (rect 104 84 112 92))
+		(circle (rect 104 100 112 108))
+		(circle (rect 104 132 112 140))
+		(circle (rect 104 116 112 124))
+		(circle (rect 8 100 16 108))
+		(circle (rect 8 116 16 124))
+		(circle (rect 104 20 112 28))
+		(circle (rect 104 36 112 44))
+		(circle (rect 104 52 112 60))
+	)
+)
+(symbol
+	(rect 656 152 704 184)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst4" (rect 3 21 26 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 344 64 496 160)
+	(text "counter_10bit" (rect 5 0 71 12)(font "Arial" ))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 25 12)(font "Arial" ))
+		(text "clock" (rect 21 27 46 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "cnt[9..0]" (rect 0 0 41 12)(font "Arial" ))
+		(text "cnt[9..0]" (rect 68 27 109 39)(font "Arial" ))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(connector
+	(pt 864 88)
+	(pt 928 88)
+)
+(connector
+	(text "cnt[0]" (rect 734 72 762 84)(font "Arial" ))
+	(pt 728 88)
+	(pt 816 88)
+)
+(connector
+	(text "cnt[9..1]" (rect 600 152 641 164)(font "Arial" ))
+	(pt 656 168)
+	(pt 592 168)
+	(bus)
+)
+(connector
+	(text "HC[8..0]" (rect 728 152 770 164)(font "Arial" ))
+	(pt 704 168)
+	(pt 776 168)
+	(bus)
+)
+(connector
+	(text "HC[8..0]" (rect 848 184 890 196)(font "Arial" ))
+	(pt 928 200)
+	(pt 840 200)
+	(bus)
+)
+(connector
+	(text "HQ0" (rect 712 320 734 332)(font "Arial" ))
+	(pt 704 336)
+	(pt 752 336)
+)
+(connector
+	(text "HQ1" (rect 716 336 738 348)(font "Arial" ))
+	(pt 704 352)
+	(pt 752 352)
+)
+(connector
+	(text "HQ2" (rect 712 352 734 364)(font "Arial" ))
+	(pt 704 368)
+	(pt 752 368)
+)
+(connector
+	(text "HQ3" (rect 713 368 735 380)(font "Arial" ))
+	(pt 704 384)
+	(pt 752 384)
+)
+(connector
+	(text "HQ4" (rect 713 384 735 396)(font "Arial" ))
+	(pt 704 400)
+	(pt 752 400)
+)
+(connector
+	(text "HQ5" (rect 713 400 735 412)(font "Arial" ))
+	(pt 704 416)
+	(pt 752 416)
+)
+(connector
+	(text "HQ6" (rect 713 416 735 428)(font "Arial" ))
+	(pt 704 432)
+	(pt 752 432)
+)
+(connector
+	(text "HQ7" (rect 712 432 734 444)(font "Arial" ))
+	(pt 704 448)
+	(pt 752 448)
+)
+(connector
+	(text "HC6" (rect 504 352 526 364)(font "Arial" ))
+	(pt 488 368)
+	(pt 584 368)
+)
+(connector
+	(text "HC5" (rect 501 336 523 348)(font "Arial" ))
+	(pt 488 352)
+	(pt 584 352)
+)
+(connector
+	(text "HC7" (rect 509 368 531 380)(font "Arial" ))
+	(pt 488 384)
+	(pt 584 384)
+)
+(connector
+	(text "HQ[7..0]" (rect 848 312 890 324)(font "Arial" ))
+	(pt 840 328)
+	(pt 928 328)
+	(bus)
+)
+(connector
+	(pt 280 96)
+	(pt 344 96)
+)
+(connector
+	(text "cnt[9..0]" (rect 511 80 552 92)(font "Arial" ))
+	(pt 496 96)
+	(pt 568 96)
+	(bus)
+)
+(text "Projeto ULA CPLD - Clone da ULA do TK90X/TK95.\nCopyright Fábio Belavenuto 2012.\nCopyright Victor Trucco 2012.\n\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.1.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.1. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN OHL v.1.1 for applicable conditions" (rect 56 464 570 604)(font "Arial" (font_size 8)))
+(rectangle (rect 40 456 504 616))

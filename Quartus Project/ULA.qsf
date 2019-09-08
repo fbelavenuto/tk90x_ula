@@ -1,0 +1,109 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2011 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Web Edition
+# Date created = 20:05:27  May 17, 2013
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ULA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX7000S
+set_global_assignment -name DEVICE "EPM7128STC100-15"
+set_global_assignment -name TOP_LEVEL_ENTITY ULA
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "10.1 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:05:27  MAY 17, 2013"
+set_global_assignment -name LAST_QUARTUS_VERSION "10.1 SP1"
+set_global_assignment -name BDF_FILE Wait_Subcarrier.bdf
+set_global_assignment -name BDF_FILE ULA.bdf
+set_global_assignment -name BDF_FILE Porta254.bdf
+set_global_assignment -name BDF_FILE HSync_Blank.bdf
+set_global_assignment -name BDF_FILE DRAM_CAS_RAS.bdf
+set_global_assignment -name BDF_FILE DRAM_ADDRESS.bdf
+set_global_assignment -name BDF_FILE Display.bdf
+set_global_assignment -name BDF_FILE clock.bdf
+set_global_assignment -name VERILOG_FILE interrupcao2.v
+set_global_assignment -name VERILOG_FILE counter_9bit.v
+set_global_assignment -name VERILOG_FILE counter_13bit.v
+set_global_assignment -name VERILOG_FILE counter_12bit.v
+set_global_assignment -name VERILOG_FILE counter_10bit.v
+set_global_assignment -name VHDL_FILE VSync2.vhd
+set_global_assignment -name VHDL_FILE VoutGen.vhd
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 100
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1702130533
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD TTL
+set_location_assignment PIN_7 -to d[7]
+set_location_assignment PIN_1 -to d[6]
+set_location_assignment PIN_100 -to d[5]
+set_location_assignment PIN_94 -to d[4]
+set_location_assignment PIN_88 -to d[3]
+set_location_assignment PIN_85 -to d[2]
+set_location_assignment PIN_83 -to d[1]
+set_location_assignment PIN_81 -to d[0]
+set_location_assignment PIN_27 -to PINO1_60/50Hz
+set_location_assignment PIN_29 -to PINO2_/CS
+set_location_assignment PIN_31 -to PINO3_A0
+set_location_assignment PIN_33 -to PINO4_A1
+set_location_assignment PIN_35 -to PINO5_A2
+set_location_assignment PIN_36 -to PINO6_A3
+set_location_assignment PIN_37 -to PINO7_A4
+set_location_assignment PIN_40 -to PINO8_A5
+set_location_assignment PIN_44 -to PINO9_A6
+set_location_assignment PIN_49 -to PINO10_KEYBOARD
+set_location_assignment PIN_87 -to PINO11_CLK
+set_location_assignment PIN_57 -to PINO12_/CAS
+set_location_assignment PIN_60 -to PINO13_/RAS
+set_location_assignment PIN_65 -to PINO14_/VRAMWR
+set_location_assignment PIN_67 -to PINO15_/MREQ
+set_location_assignment PIN_69 -to PINO16_/WR
+set_location_assignment PIN_70 -to PINO17_/RD
+set_location_assignment PIN_71 -to PINO18_BRIGHT
+set_location_assignment PIN_72 -to PINO19_GREEN
+set_location_assignment PIN_76 -to PINO21_RED
+set_location_assignment PIN_77 -to PINO22_BLUE
+set_location_assignment PIN_78 -to PINO23_MIC
+set_location_assignment PIN_79 -to PINO24_SOUND
+set_location_assignment PIN_10 -to PINO33_SYNC
+set_location_assignment PIN_13 -to PINO34_/INT
+set_location_assignment PIN_16 -to PINO35_BURSTGATE
+set_location_assignment PIN_19 -to PINO36_CLKCPU
+set_location_assignment PIN_21 -to PINO37_A14
+set_location_assignment PIN_23 -to PINO38_A15
+set_location_assignment PIN_25 -to PINO39_SUBCARRIER
+set_global_assignment -name MISC_FILE "D:/Documentos/Documents/Altera/ula/ULA.dpf"
+set_location_assignment PIN_63 -to _HSYNC
+set_location_assignment PIN_64 -to _VSYNC
+set_global_assignment -name MISC_FILE "D:/Documentos/Documents/altera/ula/ULA.dpf"

@@ -1,0 +1,1 @@
+  You must attempt to send the modified documentation by email to any of the developers who have provided their email address in the PRODUCT.txt file.

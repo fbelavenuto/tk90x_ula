@@ -1,0 +1,169 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'clock:clock|counter_10bit:inst|cnt[0]'
+Slack : -20.500
+TNS   : -280.000
+
+Type  : Setup 'PINO11_CLK'
+Slack : -19.500
+TNS   : -225.500
+
+Type  : Setup 'clock:clock|counter_10bit:inst|cnt[3]'
+Slack : -12.500
+TNS   : -126.000
+
+Type  : Setup 'PINO1_60/50Hz'
+Slack : -12.500
+TNS   : -75.000
+
+Type  : Setup 'DRAM_CAS_RAS:dram_cas_ras|inst16'
+Slack : -12.000
+TNS   : -156.000
+
+Type  : Setup 'HSync_Blank:hsync_blank|inst1'
+Slack : -12.000
+TNS   : -108.000
+
+Type  : Setup 'clock:clock|counter_10bit:inst|cnt[9]'
+Slack : -12.000
+TNS   : -108.000
+
+Type  : Setup 'clock:clock|counter_10bit:inst|cnt[5]'
+Slack : -7.000
+TNS   : -14.000
+
+Type  : Setup 'Wait_Subcarrier:wait|inst'
+Slack : 2.500
+TNS   : 0.000
+
+Type  : Setup 'PINO2_/CS'
+Slack : 4.500
+TNS   : 0.000
+
+Type  : Hold 'PINO2_/CS'
+Slack : -12.000
+TNS   : -12.000
+
+Type  : Hold 'Wait_Subcarrier:wait|inst'
+Slack : -10.000
+TNS   : -10.000
+
+Type  : Hold 'clock:clock|counter_10bit:inst|cnt[0]'
+Slack : -4.000
+TNS   : -4.000
+
+Type  : Hold 'clock:clock|counter_10bit:inst|cnt[3]'
+Slack : -4.000
+TNS   : -4.000
+
+Type  : Hold 'clock:clock|counter_10bit:inst|cnt[5]'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Hold 'PINO11_CLK'
+Slack : 1.000
+TNS   : 0.000
+
+Type  : Hold 'DRAM_CAS_RAS:dram_cas_ras|inst16'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Hold 'HSync_Blank:hsync_blank|inst1'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Hold 'PINO1_60/50Hz'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Hold 'clock:clock|counter_10bit:inst|cnt[9]'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Recovery 'DRAM_CAS_RAS:dram_cas_ras|inst16'
+Slack : -25.000
+TNS   : -325.000
+
+Type  : Recovery 'HSync_Blank:hsync_blank|inst1'
+Slack : -25.000
+TNS   : -225.000
+
+Type  : Recovery 'clock:clock|counter_10bit:inst|cnt[9]'
+Slack : -25.000
+TNS   : -225.000
+
+Type  : Recovery 'clock:clock|counter_10bit:inst|cnt[3]'
+Slack : -7.500
+TNS   : -15.000
+
+Type  : Recovery 'clock:clock|counter_10bit:inst|cnt[5]'
+Slack : -7.500
+TNS   : -15.000
+
+Type  : Removal 'clock:clock|counter_10bit:inst|cnt[3]'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Removal 'clock:clock|counter_10bit:inst|cnt[5]'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Removal 'DRAM_CAS_RAS:dram_cas_ras|inst16'
+Slack : 9.000
+TNS   : 0.000
+
+Type  : Removal 'HSync_Blank:hsync_blank|inst1'
+Slack : 9.000
+TNS   : 0.000
+
+Type  : Removal 'clock:clock|counter_10bit:inst|cnt[9]'
+Slack : 9.000
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clock:clock|counter_10bit:inst|cnt[3]'
+Slack : -5.500
+TNS   : -297.000
+
+Type  : Minimum Pulse Width 'clock:clock|counter_10bit:inst|cnt[9]'
+Slack : -5.500
+TNS   : -275.000
+
+Type  : Minimum Pulse Width 'clock:clock|counter_10bit:inst|cnt[0]'
+Slack : -5.500
+TNS   : -187.000
+
+Type  : Minimum Pulse Width 'DRAM_CAS_RAS:dram_cas_ras|inst16'
+Slack : -5.500
+TNS   : -143.000
+
+Type  : Minimum Pulse Width 'PINO1_60/50Hz'
+Slack : -5.500
+TNS   : -132.000
+
+Type  : Minimum Pulse Width 'HSync_Blank:hsync_blank|inst1'
+Slack : -5.500
+TNS   : -99.000
+
+Type  : Minimum Pulse Width 'PINO2_/CS'
+Slack : -5.500
+TNS   : -66.000
+
+Type  : Minimum Pulse Width 'clock:clock|counter_10bit:inst|cnt[5]'
+Slack : -5.500
+TNS   : -22.000
+
+Type  : Minimum Pulse Width 'Wait_Subcarrier:wait|inst'
+Slack : -5.500
+TNS   : -11.000
+
+Type  : Minimum Pulse Width 'PINO11_CLK'
+Slack : -4.500
+TNS   : -162.000
+
+Type  : Minimum Pulse Width 'Wait_Subcarrier:wait|inst10'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

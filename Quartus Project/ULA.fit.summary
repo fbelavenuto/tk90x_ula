@@ -1,0 +1,9 @@
+Fitter Status : Successful - Tue Jul 16 12:46:27 2013
+Quartus II 64-Bit Version : 10.1 Build 197 01/19/2011 SP 1 SJ Web Edition
+Revision Name : ULA
+Top-level Entity Name : ULA
+Family : MAX7000S
+Device : EPM7128STC100-15
+Timing Models : Final
+Total macrocells : 119 / 128 ( 93 % )
+Total pins : 44 / 84 ( 52 % )
