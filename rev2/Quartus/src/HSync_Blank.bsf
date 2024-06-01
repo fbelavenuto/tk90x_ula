@@ -1,0 +1,120 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 176 208)
+	(text "HSync_Blank" (rect 5 0 80 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 176 25 188)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK7" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "CLK7" (rect 21 27 51 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "HC[8..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "HC[8..0]" (rect 21 43 65 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "HQ[7..0]" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "HQ[7..0]" (rect 21 59 67 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "VBorder" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "VBorder" (rect 21 75 69 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "AL1" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "AL1" (rect 116 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "AL2" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "AL2" (rect 116 43 139 57)(font "Arial" (font_size 8)))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(port
+		(pt 160 64)
+		(output)
+		(text "Den" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "Den" (rect 117 59 139 73)(font "Arial" (font_size 8)))
+		(line (pt 160 64)(pt 144 64))
+	)
+	(port
+		(pt 160 80)
+		(output)
+		(text "Vout" (rect 0 0 27 14)(font "Arial" (font_size 8)))
+		(text "Vout" (rect 112 75 139 89)(font "Arial" (font_size 8)))
+		(line (pt 160 80)(pt 144 80))
+	)
+	(port
+		(pt 160 96)
+		(output)
+		(text "OutLatch" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "OutLatch" (rect 88 91 139 105)(font "Arial" (font_size 8)))
+		(line (pt 160 96)(pt 144 96))
+	)
+	(port
+		(pt 160 112)
+		(output)
+		(text "HBlank" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "HBlank" (rect 101 107 139 121)(font "Arial" (font_size 8)))
+		(line (pt 160 112)(pt 144 112))
+	)
+	(port
+		(pt 160 128)
+		(output)
+		(text "HSync" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "HSync" (rect 102 123 139 137)(font "Arial" (font_size 8)))
+		(line (pt 160 128)(pt 144 128))
+	)
+	(port
+		(pt 160 144)
+		(output)
+		(text "C[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "C[7..0]" (rect 103 139 139 153)(font "Arial" (font_size 8)))
+		(line (pt 160 144)(pt 144 144)(line_width 3))
+	)
+	(port
+		(pt 160 160)
+		(output)
+		(text "Burstgate" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "Burstgate" (rect 84 155 139 169)(font "Arial" (font_size 8)))
+		(line (pt 160 160)(pt 144 160))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 176))
+	)
+)

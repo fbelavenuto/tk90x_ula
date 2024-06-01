@@ -1,3 +1,8 @@
 /CERNOHLv1_1_howto.pdf
 /CERNOHLv1_1_howto.txt
-/Quartus Project/*.bak
+*.bak
+*.qws
+db
+incremental_db
+simulation
+output_files
